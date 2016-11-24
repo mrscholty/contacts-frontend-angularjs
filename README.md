@@ -12,8 +12,8 @@ http://lab.mrscholty.com/contacts-frontend-angularjs
 * the app assumes the contacts-api to be running at `http://localhost:3000`
 
 ## running the application
-- switch to angularjs-starter directory `cd contacts-frontend-angularJS`
+- switch to angularjs-starter directory `cd contacts-frontend-angularjs`
 - install the frontend dependencies `bower install`
-- install the backend dependencies `npm install` 
+- install the dev dependencies `npm install` 
 - launch the app `npm start` (will open http://localhost:8080 in browser)
 - build the app (for production) `npm run build`
