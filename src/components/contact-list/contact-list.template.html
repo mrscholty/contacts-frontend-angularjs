@@ -1,0 +1,26 @@
+<div class="page-header"><h2>Contact List</h2></div>
+
+<div class="input-group">
+    <span class="input-group-btn">
+        <button class="btn btn-default" title="Table View" ng-click="$ctrl.setTableView()">
+            <span class="glyphicon glyphicon glyphicon-align-justify"></span>
+        </button>
+         <button class="btn btn-default" title="Card View" ng-click="$ctrl.setCardView()">
+            <span class="glyphicon glyphicon glyphicon-th"></span>
+        </button>
+    </span>
+    <input type="text" class="form-control" style="width:200px;"
+           placeholder="Search" ng-model="$ctrl.searchTerm" ng-change="$ctrl.filterContacts()"/>
+</div>
+
+<br>
+
+<div>
+    <div ng-show="$ctrl.contactListView === 'table'">
+        <contact-tableview contacts="$ctrl.filteredContacts"></contact-tableview>
+    </div>
+
+    <div ng-show="$ctrl.contactListView === 'card'">
+        <contact-cardview contacts="$ctrl.filteredContacts"></contact-cardview>
+    </div>
+</div>

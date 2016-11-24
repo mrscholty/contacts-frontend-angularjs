@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularjs-starter">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts Demo</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+
+    <!-- main module -->
+    <script src="app.module.js"></script>
+
+    <!-- services -->
+    <script src="services/contacts/contacts.module.js"></script>
+    <script src="services/contacts/contacts.service.js"></script>
+
+    <!-- components -->
+    <script src="components/contact-list/contact-list.module.js"></script>
+    <script src="components/contact-list/contact-list.component.js"></script>
+
+    <script src="components/contact-tableview/contact-tableview.module.js"></script>
+    <script src="components/contact-tableview/contact-tableview.component.js"></script>
+
+    <script src="components/contact-cardview/contact-cardview.module.js"></script>
+    <script src="components/contact-cardview/contact-cardview.component.js"></script>
+
+    <script src="components/contact-cardItem/contact-cardItem.module.js"></script>
+    <script src="components/contact-cardItem/contact-cardItem.component.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <contact-list></contact-list>
+    </div>
+
+</body>
+</html>

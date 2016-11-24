@@ -1,0 +1,25 @@
+{
+  "name": "angularjs-starter",
+  "version": "0.0.1",
+  "description": "a sample AngularJS frontend app for contact management",
+  "keywords": [
+    "angularjs",
+    "contact management"
+  ],
+  "scripts": {
+    "test": "karma start",
+    "start": "live-server src",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "mocha": "^3.1.2"
+  },
+  "author": "Markus Scholtysik",
+  "license": "MIT"
+}
